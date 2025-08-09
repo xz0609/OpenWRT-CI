@@ -70,6 +70,12 @@ UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
+UPDATE_PACKAGE "adguardhome" "xiaoxiao29/luci-app-adguardhome" "master" "" "luci-app-adguardhome AdGuardHome"
+UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main" "" "luci-app-lucky lucky"
+UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main" "" "luci-app-openlist2 openlist2"
+UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master" "" "luci-app-diskman"
+UPDATE_PACKAGE "dockerman" "lisaac/luci-app-dockerman" "master" "" "luci-app-dockerman"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
