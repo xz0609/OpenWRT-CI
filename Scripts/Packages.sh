@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2026 VIKINGYFY
 
 #安装和更新软件包
 UPDATE_PACKAGE() {
@@ -61,8 +63,8 @@ UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
-UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"  
-# UPDATE_PACKAGE "diskman" "danchexiaoyang/luci-app-diskman" "main"
+# UPDATE_PACKAGE "diskman" "lisaac/luci-app-diskman" "master"  
+UPDATE_PACKAGE "diskman" "danchexiaoyang/luci-app-diskman" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "fancontrol" "rockjake/luci-app-fancontrol" "main"
 UPDATE_PACKAGE "gecoosac" "laipeng668/luci-app-gecoosac" "main"
