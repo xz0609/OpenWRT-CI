@@ -80,7 +80,6 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "adguardhome" "xiaoxiao29/luci-app-adguardhome" "master" "" "luci-app-adguardhome AdGuardHome"
 UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main" "" "luci-app-lucky lucky"
-UPDATE_PACKAGE "dockerman" "lisaac/luci-app-dockerman" "master" "" "luci-app-dockerman"
 
 #更新软件包版本
 UPDATE_VERSION() {
