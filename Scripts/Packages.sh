@@ -91,7 +91,6 @@ UPDATE_PACKAGE "adguardhome" "xiaoxiao29/luci-app-adguardhome" "master" "" "luci
 UPDATE_PACKAGE "tailscale" "whzhni1/luci-app-tailscale" "main" "" "luci-app-tailscale tailscale"
 #UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main" "" "luci-app-lucky lucky"
 UPDATE_PACKAGE "luci-app-lucky" "whzhni1/luci-app-lucky" "main" "" "luci-app-lucky"
-UPDATE_PACKAGE "diskman" "sbwml/luci-app-diskman" "main"
 
 
 #更新软件包版本
