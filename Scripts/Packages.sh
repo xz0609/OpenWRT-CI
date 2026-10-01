@@ -93,7 +93,7 @@ UPDATE_PACKAGE "netmonitor" "LianXia233/luci-app-netmonitor" "main"
 UPDATE_PACKAGE "qmodem-generic" "LianXia233/luci-app-qmodem-generic" "main"
 
 UPDATE_PACKAGE "adguardhome" "xiaoxiao29/luci-app-adguardhome" "master" "" "luci-app-adguardhome AdGuardHome"
-UPDATE_PACKAGE "luci-app-tailscale" "Tokisaki-Galaxy/luci-app-tailscale-community" "master" "" "luci-app-tailscale"
+UPDATE_PACKAGE "luci-app-tailscale-community" "Tokisaki-Galaxy/luci-app-tailscale-community" "master" "" "luci-app-tailscale-community"
 #UPDATE_PACKAGE "luci-app-tailscale" "whzhni1/luci-app-tailscale" "main" "" "luci-app-tailscale tailscale"
 UPDATE_PACKAGE "lucky" "gdy666/luci-app-lucky" "main" "" "luci-app-lucky lucky"
 #UPDATE_PACKAGE "luci-app-lucky" "whzhni1/luci-app-lucky" "main" "" "luci-app-lucky"
